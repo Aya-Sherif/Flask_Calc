@@ -3,6 +3,8 @@
 
 FlaskCalc is a simple web-based calculator built with Flask, a lightweight Python web framework.
 
+![WhatsApp Image 2024-03-08 at 11 32 55 AM](https://github.com/Aya-Sherif/Flask_Calc/assets/118867207/c8bfad1c-2b35-4e85-99ff-2d3a22a8ef35)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
