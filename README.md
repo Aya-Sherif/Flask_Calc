@@ -12,8 +12,6 @@ FlaskCalc is a simple web-based calculator built with Flask, a lightweight Pytho
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
