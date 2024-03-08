@@ -36,20 +36,15 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/FlaskCalc.git
+    git clone https://github.com/Aya-Sherif/Flask_Calc.git
     ```
 
 2. Change into the project directory:
 
     ```bash
-    cd FlaskCalc
+    cd Flask_Calc
     ```
 
-3. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 
