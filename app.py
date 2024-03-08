@@ -6,13 +6,15 @@ app = Flask(__name__)
 
 # home route that returns below text when root url is accessed
 @app.route("/",methods=['POST','GET'])
-
 def Calculate():
-    number1=float(request.form.get('number_1'))
-    number2=float(request.form.get('number_2'))
-    operation=request.form.get('operation')
-    result = do_Calc(number1,number2,operation)
-    return render_template('index.html',result=result)
+    if request.form.get('number_1') and request.form.get('number_2') and request.form.get('operation'):
+        number1=float(request.form.get('number_1'))
+        number2=float(request.form.get('number_2'))
+        operation=request.form.get('operation')
+        result = do_Calc(number1,number2,operation)
+        return render_template('index.html',result=result)
+    else:
+        return render_template('index.html')       
 
 def do_Calc(number1,number2,operation):
     if(operation=="+"):
